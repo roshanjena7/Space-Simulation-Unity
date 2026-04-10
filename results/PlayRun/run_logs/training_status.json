@@ -1,0 +1,29 @@
+{
+    "SatelliteAI": {
+        "checkpoints": [
+            {
+                "steps": 20014,
+                "file_path": "results\\PlayRun\\SatelliteAI\\SatelliteAI-20014.onnx",
+                "reward": 15.452823214772819,
+                "creation_time": 1775299083.449506,
+                "auxillary_file_paths": [
+                    "results\\PlayRun\\SatelliteAI\\SatelliteAI-20014.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 20014,
+            "file_path": "results\\PlayRun\\SatelliteAI.onnx",
+            "reward": 15.452823214772819,
+            "creation_time": 1775299083.449506,
+            "auxillary_file_paths": [
+                "results\\PlayRun\\SatelliteAI\\SatelliteAI-20014.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.11.0+cpu"
+    }
+}

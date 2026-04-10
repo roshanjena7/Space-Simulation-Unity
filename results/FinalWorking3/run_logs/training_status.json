@@ -1,0 +1,29 @@
+{
+    "SatelliteAI": {
+        "checkpoints": [
+            {
+                "steps": 20025,
+                "file_path": "results\\FinalWorking3\\SatelliteAI\\SatelliteAI-20025.onnx",
+                "reward": 12.648452781779426,
+                "creation_time": 1775298383.5607624,
+                "auxillary_file_paths": [
+                    "results\\FinalWorking3\\SatelliteAI\\SatelliteAI-20025.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 20025,
+            "file_path": "results\\FinalWorking3\\SatelliteAI.onnx",
+            "reward": 12.648452781779426,
+            "creation_time": 1775298383.5607624,
+            "auxillary_file_paths": [
+                "results\\FinalWorking3\\SatelliteAI\\SatelliteAI-20025.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.11.0+cpu"
+    }
+}

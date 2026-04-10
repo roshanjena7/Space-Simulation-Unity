@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1775297817",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Roshan jena\\SpaceSimulation\\mlagents_env\\Scripts\\mlagents-learn config.yaml --run-id=FinalWorking2",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.11.0+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1775297895"
+    },
+    "total": 78.25680060000741,
+    "count": 1,
+    "self": 0.01440699998056516,
+    "children": {
+        "run_training.setup": {
+            "total": 0.07803800000692718,
+            "count": 1,
+            "self": 0.07803800000692718
+        },
+        "TrainerController.start_learning": {
+            "total": 78.16435560001992,
+            "count": 1,
+            "self": 0.00014680004096589983,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 78.16418679998606,
+                    "count": 1,
+                    "self": 78.16418679998606
+                },
+                "TrainerController._save_models": {
+                    "total": 2.19999928958714e-05,
+                    "count": 1,
+                    "self": 2.19999928958714e-05
+                }
+            }
+        }
+    }
+}

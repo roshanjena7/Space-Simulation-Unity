@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1775134033",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\Roshan jena\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\mlagents\\trainers\\learn.py config.yaml --run-id=SatelliteRun",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.11.0+cpu",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1775134096"
+    },
+    "total": 62.77284059999511,
+    "count": 1,
+    "self": 0.015279700004612096,
+    "children": {
+        "run_training.setup": {
+            "total": 0.11466059999656864,
+            "count": 1,
+            "self": 0.11466059999656864
+        },
+        "TrainerController.start_learning": {
+            "total": 62.642900299993926,
+            "count": 1,
+            "self": 0.00011170000652782619,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 62.642771200000425,
+                    "count": 1,
+                    "self": 62.642771200000425
+                },
+                "TrainerController._save_models": {
+                    "total": 1.7399986973032355e-05,
+                    "count": 1,
+                    "self": 1.7399986973032355e-05
+                }
+            }
+        }
+    }
+}

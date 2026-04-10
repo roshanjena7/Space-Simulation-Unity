@@ -1,0 +1,6 @@
+behaviors:
+  SatelliteAI:
+    trainer_type: ppo
+    max_steps: 20000
+    time_horizon: 64
+    summary_freq: 1000
